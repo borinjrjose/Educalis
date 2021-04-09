@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+nav ul {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0px 5px;
+    line-height: 2px;
+}
+
+.menu-item {
+    color: #000000;
+    transition: 0.2s;
+}
+
+.menu-item:hover {
+    color: #0098C7;
+}
+
+.login-btn {
+    padding: 5px 20px;
+    background-color: #0098C7;
+    border-radius: 10px;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.login-btn:hover {
+    background-color: #007396;
+}
+
+/*Apresentação*/
+
+.index-title {
+    font-size: 40px;
+    margin-left: 20px;
+}
+.index-title span {
+    color: #0098C7;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+}
+
+.presentation-text {
+    max-width: 300px;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+.presentation-img {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.presentation-img img {
+    width: 550px;
+    height: auto;
+    transform: translateY(-100px);
+}
+
+/*Quem somos*/
+
+.us {
+    background-color: #CFE0E5;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.us h3 {
+    font-size: 30px;
+    color: #004257;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards div {
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cards div b {
+    color: #E70E0E;
+}
+
+/*Estrutura*/
+
+.structure {
+    margin: 0px 20px;
+}
+
+.structure h3{
+    font-size: 30px;
+    color: #004257;
+}
+
+.structure p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hubs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hubs img {
+    height: 200px;
+    width: auto;
+    margin: 10px;
+}
+
+.education {
+    text-align: center;
+}
+
+.education img {
+    height: 250px;
+    width: auto;
+}
+
+/*Contribua*/
+
+.contribute {
+    margin: 0px 20px;
+}
+
+.contribute h3 {
+    font-size: 30px;
+    color: #004257;
+}
+
+.contribute p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contribute-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gifts {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.contribute-form .gifts img {
+    height: 250px;
+    width: auto;
+}
+
+.contribute-form-data {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.contribute-form-data form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.contribute-form-data form input {
+    height: 35px;
+    margin: 15px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25);
+    outline: none;
+    font-size: 15px;
+}
+
+.contribute-form-data form textarea {
+    resize: none;
+    height: 100px;
+    margin: 15px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25);
+    outline: none;
+    font-size: 15px;
+}
+
+.contribute-form-data form button {
+    height: 50px;
+    margin: 15px 5px;
+    color: #FFFFFF;
+    background-color: #E70E0E;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.contribute-form-data form button:hover {
+    background-color: #bb0909;
+}
+
+/*Rodapé*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #CFE0E5;
+    height: 125px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+footer img {
+    width: 300px;
+    height: auto;
+}
+
+.footer-desc {
+    display: flex;
+    align-items: center;
+    border-left: 2px solid #000000;
+    margin-left: 30px;
+    padding-left: 30px;
+}
