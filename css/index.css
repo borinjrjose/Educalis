@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+/*Barra de Navegação*/
+
 nav {
     display: flex;
     flex-direction: row;
@@ -14,6 +16,7 @@ nav {
 
 .logo {
     flex-grow: 1;
+    display: flex;
 }
 
 .logo img {
@@ -58,6 +61,16 @@ nav ul li a {
     background-color: #007396;
 }
 
+@media screen and (max-width: 760px) {
+    nav ul {
+        display: none !important;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+}
+
 /*Apresentação*/
 
 .index-title {
@@ -77,6 +90,7 @@ nav ul li a {
 .presentation-text {
     max-width: 300px;
     margin-right: 20px;
+    margin-bottom: 20px;
     flex-grow: 1;
 }
 
@@ -91,6 +105,21 @@ nav ul li a {
     width: 550px;
     height: auto;
     transform: translateY(-100px);
+}
+
+@media screen and (max-width: 900px) {
+    .index-title {
+        font-size: 20px !important;
+    }
+
+    .presentation-text {
+        max-width: none !important;
+        margin-right: 0px !important;
+    }
+
+    .presentation-img {
+        display: none !important;
+    }    
 }
 
 /*Quem somos*/
@@ -176,6 +205,12 @@ nav ul li a {
 .education img {
     height: 250px;
     width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .education img {
+        height: 200px !important;
+    }    
 }
 
 /*Contribua*/
@@ -265,6 +300,12 @@ nav ul li a {
     background-color: #bb0909;
 }
 
+@media screen and  (max-width: 700px) {
+    .gifts {
+        display: none !important;
+    }
+}
+
 /*Rodapé*/
 
 footer {
@@ -289,4 +330,14 @@ footer img {
     border-left: 2px solid #000000;
     margin-left: 30px;
     padding-left: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .footer-desc {
+        display: none !important;
+    }
+    
+    footer img {
+        width: 200px !important;
+    }
 }
