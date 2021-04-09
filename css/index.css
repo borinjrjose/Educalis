@@ -109,7 +109,7 @@ nav ul li a {
 
 @media screen and (max-width: 900px) {
     .index-title {
-        font-size: 20px !important;
+        font-size: 25px !important;
     }
 
     .presentation-text {
@@ -164,6 +164,11 @@ nav ul li a {
 
 .cards {
     text-align: center;
+}
+
+.cards div p {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .cards div b {
