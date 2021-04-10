@@ -1,0 +1,53 @@
+.img-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    min-height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 400px;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        display: none !important;
+    }    
+}
+
+.form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form img {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form form input {
+    margin: 15px 5px;
+}
+
+.form form button {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

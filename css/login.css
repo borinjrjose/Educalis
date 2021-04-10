@@ -1,62 +1,15 @@
-/*Exams Img*/
+@import url(_img-form.css);
 
-.login {
-    display: flex;
-    flex-direction: row;
-}
-
-.exams-img {
-    height: 100vh;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.img {
     background-color: #F5DCDC;
 }
 
-.exams-img img {
-    width: 400px;
-    height: auto;
+.img img {
     transform: translateX(20%);
 }
 
-@media screen and (max-width: 800px) {
-    .exams-img {
-        display: none !important;
-    }    
-}
-
-/*Form*/
-
-.login-form {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login-form img {
-    width: 300px;
-    height: auto;
-    margin-top: 20px;
+.form img {
     margin-bottom: 80px;
-}
-
-.login-form form {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-
-.login-form form input {
-    margin: 15px 5px;
-}
-
-.login-form form button {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .links {
