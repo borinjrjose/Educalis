@@ -1,5 +1,9 @@
 /*Barra de Navegação*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     display: flex;
     flex-direction: row;
