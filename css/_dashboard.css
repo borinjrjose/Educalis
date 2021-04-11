@@ -14,12 +14,6 @@
     min-width: 175px;
 }
 
-@media screen and (max-width: 600px) {
-    .menu {
-        display: none !important;
-    }    
-}
-
 .logo-simple {
     display: flex;
     flex-direction: column;
@@ -108,4 +102,14 @@
     font-size: 25px;
     font-weight: normal;
     margin: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        display: none !important;
+    }
+    
+    .principal h1 {
+        text-align: center;
+    }
 }
