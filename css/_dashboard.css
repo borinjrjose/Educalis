@@ -6,7 +6,7 @@
 /*Menu*/
 
 .menu {
-    background-color: #B1D3DE;
+    background-color: var(--theme-blue-menu);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -38,11 +38,11 @@
 }
 
 .menu a:hover {
-    color: #0098C7;
+    color: var(--theme-blue);
 }
 
 .active {
-    color: #004257 !important;
+    color: var(--theme-blue-dark) !important;
 }
 
 .menu a img {
@@ -84,7 +84,7 @@
 }
 
 .teachers-exit a:hover {
-    color: #0098C7;
+    color: var(--theme-blue);
 }
 
 .teachers-exit a img {

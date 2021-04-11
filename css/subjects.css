@@ -23,7 +23,7 @@
 }
 
 .disciplines a:hover {
-    color: #0098C7;
+    color: var(--theme-blue);
 }
 
 .disciplines a img {

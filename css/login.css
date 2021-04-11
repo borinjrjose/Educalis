@@ -1,7 +1,7 @@
 @import url(_img-form.css);
 
 .img {
-    background-color: #F5DCDC;
+    background-color: var(--theme-pink-light);
 }
 
 .img img {
@@ -40,12 +40,12 @@
 }
 
 .subscribe a {
-    color: #0098C7;
+    color: var(--theme-blue);
     transition: 0.2s;
 }
 
 .subscribe a:hover {
-    color: #007396;
+    color: var(--theme-blue-hover);
 }
 
 .forgot-password a {
@@ -54,5 +54,5 @@
 }
 
 .forgot-password a:hover {
-    color: #0098C7;
+    color: var(--theme-blue);
 }

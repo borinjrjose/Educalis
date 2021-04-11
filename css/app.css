@@ -1,3 +1,14 @@
+:root {
+    --theme-blue: #0098C7;
+    --theme-blue-light: #CFE0E5;
+    --theme-blue-dark: #004257;
+    --theme-blue-hover: #007396;
+    --theme-blue-menu: #B1D3DE;
+    --theme-pink-light: #F5DCDC;
+    --button: #E70E0E;
+    --button-hover: #bb0909;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -31,7 +42,7 @@ form textarea {
 form button {
     height: 50px;
     color: #FFFFFF;
-    background-color: #E70E0E;
+    background-color: var(--button);
     border-radius: 20px;
     border: none;
     outline: none;
@@ -39,5 +50,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #bb0909;
+    background-color: var(--button-hover);
 }

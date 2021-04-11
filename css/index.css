@@ -45,19 +45,19 @@ nav ul li a {
 }
 
 .menu-item:hover {
-    color: #0098C7;
+    color: var(--theme-blue);
 }
 
 .login-btn {
     padding: 5px 20px;
-    background-color: #0098C7;
+    background-color: var(--theme-blue);
     border-radius: 10px;
     color: #FFFFFF;
     transition: 0.2s;
 }
 
 .login-btn:hover {
-    background-color: #007396;
+    background-color: var(--theme-blue-hover);
 }
 
 @media screen and (max-width: 760px) {
@@ -77,7 +77,7 @@ nav ul li a {
     margin-left: 20px;
 }
 .index-title span {
-    color: #0098C7;
+    color: var(--theme-blue);
 }
 
 .presentation {
@@ -124,7 +124,7 @@ nav ul li a {
 /*Quem somos*/
 
 .us {
-    background-color: #CFE0E5;
+    background-color: var(--theme-blue-light);
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 50px;
@@ -136,7 +136,7 @@ nav ul li a {
 
 .us h3 {
     font-size: 30px;
-    color: #004257;
+    color: var(--theme-blue-dark);
 }
 
 .cards {
@@ -171,7 +171,7 @@ nav ul li a {
 }
 
 .cards div b {
-    color: #E70E0E;
+    color: var(--button);
 }
 
 /*Estrutura*/
@@ -182,7 +182,7 @@ nav ul li a {
 
 .structure h3{
     font-size: 30px;
-    color: #004257;
+    color: var(--theme-blue-dark);
 }
 
 .structure p {
@@ -225,7 +225,7 @@ nav ul li a {
 
 .contribute h3 {
     font-size: 30px;
-    color: #004257;
+    color: var(--theme-blue-dark);
 }
 
 .contribute p {
@@ -286,7 +286,7 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: #CFE0E5;
+    background-color: var(--theme-blue-light);
     height: 125px;
     margin-top: 30px;
     padding-top: 50px;

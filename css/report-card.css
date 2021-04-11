@@ -39,5 +39,5 @@
 }
 
 .grades div .grade {
-    color: #004257;
+    color: var(--theme-blue-dark);
 }
