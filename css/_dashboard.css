@@ -1,0 +1,111 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Menu*/
+
+.menu {
+    background-color: #B1D3DE;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 175px;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        display: none !important;
+    }    
+}
+
+.logo-simple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.logo-simple img {
+    width: 75px;
+    height: auto;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: #0098C7;
+}
+
+.active {
+    color: #004257 !important;
+}
+
+.menu a img {
+    width: 22px;
+    height: auto;
+    transform: translateY(25%);
+    transition: 0.2s;
+}
+
+.menu a:hover img {
+    transform: translateY(5%);
+}
+
+/*Principal*/
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.teachers-exit {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.teachers-exit a {
+    margin: 17px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #666666;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.teachers-exit a:hover {
+    color: #0098C7;
+}
+
+.teachers-exit a img {
+    width: 24px;
+    height: auto;
+    transform: translateY(50%);
+    transition: 0.2s;
+}
+
+.teachers-exit a:hover img {
+    transform: translateY(30%);
+}
+
+.principal h1 {
+    font-size: 25px;
+    font-weight: normal;
+    margin: 30px;
+}
