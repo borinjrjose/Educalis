@@ -303,6 +303,10 @@ footer img {
         border-radius: 0px !important;
     }
 
+    .us h3, .structure h3, .contribute h3 {
+        text-align: center;
+    }
+
     .education img {
         height: 200px !important;
     }  
