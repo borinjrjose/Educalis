@@ -134,6 +134,14 @@ nav ul li a {
     border-radius: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .us {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        border-radius: 0px !important;
+    }
+}
+
 .us h3 {
     font-size: 30px;
     color: var(--theme-blue-dark);
