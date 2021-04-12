@@ -1,0 +1,59 @@
+@import url(_dashboard.css);
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: auto;
+}
+
+.calendar h1 {
+    margin-top: 0px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+th {
+    font-size: 12px;
+    text-align: right;
+}
+
+td {
+    border: 1px solid #D6D6D6;
+    min-width: 90px;
+    height: 70px;
+    vertical-align: top;
+    text-align: right;
+}
+
+td p:first-child {
+    margin: 5px;
+    font-weight: 900;
+}
+
+.weekend {
+    background-color: #FAFAFA;
+}
+
+.not-this-month {
+    color: #B8B8B8;
+}
+
+.appointment {
+    font-size: 6px;
+    text-align: center;
+}
+
+.test {
+    color: #666666;
+}
+
+.exercise {
+    color: #E75C5C;
+}
