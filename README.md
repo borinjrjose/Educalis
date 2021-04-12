@@ -4,7 +4,7 @@ Projeto de front-end para um ambiente virtual de aprendizagem seguindo um modelo
 
 ## Ferramentas
 
-Foi utilizado HTML e CSS para o design das páginas, assim como para a implementação de algumas transições de estado quando há hover do cursor sobre algum link ou botão. Também foi utilizado JavaScript para salvar dados enviados dos formulários das telas de login, cadastro e reuperação de senhas em localstorage.
+Foram utilizados HTML e CSS para o design das páginas e para o scroll suave presente na home quando se clica em um link da barra de navegação que não seja o login, assim como para a implementação de algumas transições de estado quando há hover do cursor sobre algum link ou botão. Também foi utilizado JavaScript para salvar dados enviados dos formulários das telas de login, cadastro e reuperação de senhas em localstorage.
 
 ## Responsividade
 
